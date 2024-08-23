@@ -51,6 +51,7 @@ start:
     add ah,30h
     cmp ah,39h
     jle print_fourth_digit
+    add ah,7
     
     print_fourth_digit:
         mov dl,ah
