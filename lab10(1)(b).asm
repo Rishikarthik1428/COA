@@ -1,5 +1,5 @@
 org 100h
-mov dl,'z'
+mov dl,'Z'
 mov cx,26
 
 print_char:
